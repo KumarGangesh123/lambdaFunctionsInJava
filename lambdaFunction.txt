@@ -31,4 +31,42 @@ Rules for the labmda functions are :
  Syntax :
  
  
+ interface interfaceName{
+      public returnType methodName(arguments);
+ }
+ 
+ 
+ 
+ Syntax for Lambda Functions :
+ 
+ 
+ * Example 1:
+ 
+ interface showing{                   // this is the functional interface
+      public void show();
+ }
+ 
+ 
+ public class lambdaFunctionClass{
+        showing sh = () -> System.out.print("This is the method of functional interfacce ");
+        show.show();
+  }
+        
+        
+        
+        
+* Example 2 :
+
+
+interface addation{
+    public int sum(int a,int b);
+}
+
+public class lambdaFunctionExample{
+    addation add = (a,b) -> a+b;
+    
+    System.out.print("Sum is :\t"+add.sum(10,20));
+}
+        
+        
  
