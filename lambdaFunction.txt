@@ -1,0 +1,34 @@
+
+                                                                        Lmabda Fuctions in Java
+                                            
+                                            
+                                            
+                  
+ Lambda functions are the type of function , which don't have any name and return type .
+ 
+ 
+ 
+
+Rules for the labmda functions are :
+ 
+ # don't have a return type and name . 
+ 
+ # arrow operater will be used ( -> )
+ 
+ # if the decleration have only one line then it is optional to use the curly braces.
+ 
+ # lambda functions are always use with the Functional Interface .
+ 
+ 
+ 
+                                                            Function Interface in Java
+                                                            
+                                                            
+                                                            
+ Functionl Interface are the special type of interface with have only single abstract method decleared.
+ 
+ 
+ Syntax :
+ 
+ 
+ 
